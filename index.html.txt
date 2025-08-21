@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Travels - Your Trusted Partner for Umrah Journeys</title>
+    <meta name="description" content="HR Travels offers premium Umrah packages with visa assistance, hotel bookings, and guided tours. Your trusted partner for spiritual journeys to Makkah and Madinah.">
+    <meta property="og:title" content="HR Travels - Premium Umrah Packages">
+    <meta property="og:description" content="Experience hassle-free Umrah journeys with our comprehensive packages including visa, flights, hotels, and guided tours.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: '#D4AF37',
+                        'gold-light': '#F4E4BC',
+                        'islamic-green': '#0F7B0F',
+                        'islamic-green-light': '#4CAF50'
+                    },
+                    fontFamily: {
+                        'arabic': ['Amiri', 'serif'],
+                        'elegant': ['Playfair Display', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23f8f9fa" width="1200" height="600"/><circle fill="%23e9ecef" cx="300" cy="150" r="80"/><circle fill="%23dee2e6" cx="900" cy="200" r="60"/><rect fill="%23ced4da" x="100" y="400" width="200" height="150" rx="10"/><rect fill="%23adb5bd" x="800" y="350" width="300" height="200" rx="15"/><text x="600" y="300" text-anchor="middle" fill="%236c757d" font-size="24" font-family="serif">Makkah Al-Mukarramah</text></svg>');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .islamic-pattern {
+            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60"><g fill="%23f8f9fa" fill-opacity="0.1"><circle cx="30" cy="30" r="2"/><circle cx="10" cy="10" r="1"/><circle cx="50" cy="10" r="1"/><circle cx="10" cy="50" r="1"/><circle cx="50" cy="50" r="1"/></g></svg>');
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #D4AF37, #B8941F);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #B8941F, #9A7A1A);
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(135deg, #0F7B0F, #4CAF50);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-secondary:hover {
+            background: linear-gradient(135deg, #0D6B0D, #45A049);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800 font-['Inter']">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between py-4">
+                <div class="flex items-center space-x-3">
+                    <div class="w-18 h-14">
+                        <img src="Logo.jpg" 
+                             alt="HR Travels Logo" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold text-gray-800 font-elegant">HR Travels</h1>
+                        <p class="text-sm text-gray-600">Your Trusted Partner</p>
+                    </div>
+                </div>
+                
+               <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-gold transition-colors">Home</a>
+                    <a href="#about" class="text-gray-700 hover:text-gold transition-colors">About</a>
+                    <a href="#packages" class="text-gray-700 hover:text-gold transition-colors">Packages</a>
+                    <a href="#services" class="text-gray-700 hover:text-gold transition-colors">Services</a>
+                    <a href="#contact" class="text-gray-700 hover:text-gold transition-colors">Contact</a>
+                </nav>
+                
+                <button class="md:hidden text-gray-700 hover:text-gold transition-colors p-2 rounded-lg hover:bg-gray-100" id="mobileMenuButton">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class="hidden md:hidden pb-4">
+                <nav class="flex flex-col space-y-2">
+                    <a href="#home" class="text-gray-700 hover:text-gold transition-colors py-2">Home</a>
+                    <a href="#about" class="text-gray-700 hover:text-gold transition-colors py-2">About</a>
+                    <a href="#packages" class="text-gray-700 hover:text-gold transition-colors py-2">Packages</a>
+                    <a href="#services" class="text-gray-700 hover:text-gold transition-colors py-2">Services</a>
+                    <a href="#contact" class="text-gray-700 hover:text-gold transition-colors py-2">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Slideshow -->
+    <section id="home" class="relative min-h-screen overflow-hidden">
+        <!-- Slideshow Container -->
+        <div class="absolute inset-0">
+            <!-- Slide 1 - Holy Kaaba Shareef -->
+            <div class="slide active absolute inset-0 transition-opacity duration-1000">
+                <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
+                <img src="Haram.jpg" 
+                     alt="Holy Kaaba Shareef" class="w-full h-full object-cover">
+                <div class="absolute bottom-8 left-8 text-white">
+                    <h3 class="text-2xl font-bold mb-2">الكعبة المشرفة - Holy Kaaba Shareef</h3>
+                    <p class="text-lg opacity-90">The Sacred House of Allah - Qibla for All Muslims</p>
+                </div>
+            </div>
+            
+            <!-- Slide 2 - Kaaba during Tawaf -->
+            <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000">
+                <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
+                <img src="kt.jpeg" 
+                     alt="Kaaba Tawaf" class="w-full h-full object-cover">
+                <div class="absolute bottom-8 left-8 text-white">
+                    <h3 class="text-2xl font-bold mb-2">Tawaf around Holy Kaaba</h3>
+                    <p class="text-lg opacity-90">Pilgrims performing the sacred ritual of Tawaf</p>
+                </div>
+            </div>
+            
+            <!-- Slide 3 - Masjid-e-Nabawi -->
+            <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000">
+                <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
+                <img src="Masjid.jpg" 
+                     alt="Masjid-e-Nabawi" class="w-full h-full object-cover">
+                <div class="absolute bottom-8 left-8 text-white">
+                    <h3 class="text-2xl font-bold mb-2">المسجد النبوي - Masjid-e-Nabawi</h3>
+                    <p class="text-lg opacity-90">The Prophet's Mosque - Resting Place of Prophet Muhammad (PBUH)</p>
+                </div>
+            </div>
+            
+            <!-- Slide 4 - Green Dome -->
+            <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000">
+                <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
+                <img src="gdm.jpg" 
+                     alt="Green Dome" class="w-full h-full object-cover">
+                <div class="absolute bottom-8 left-8 text-white">
+                    <h3 class="text-2xl font-bold mb-2">القبة الخضراء - The Green Dome</h3>
+                    <p class="text-lg opacity-90">The Sacred Green Dome of Masjid-e-Nabawi</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slideshow Navigation -->
+        <div class="absolute bottom-8 right-8 flex space-x-2 z-20">
+            <button onclick="currentSlide(1)" class="slide-dot w-3 h-3 rounded-full bg-white/50 hover:bg-white transition-colors active"></button>
+            <button onclick="currentSlide(2)" class="slide-dot w-3 h-3 rounded-full bg-white/50 hover:bg-white transition-colors"></button>
+            <button onclick="currentSlide(3)" class="slide-dot w-3 h-3 rounded-full bg-white/50 hover:bg-white transition-colors"></button>
+            <button onclick="currentSlide(4)" class="slide-dot w-3 h-3 rounded-full bg-white/50 hover:bg-white transition-colors"></button>
+        </div>
+        
+        <!-- Navigation Arrows -->
+        <button onclick="plusSlides(-1)" class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white/70 hover:text-white text-4xl z-20 transition-colors">
+            &#10094;
+        </button>
+        <button onclick="plusSlides(1)" class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white/70 hover:text-white text-4xl z-20 transition-colors">
+            &#10095;
+        </button>
+        
+                <!-- Hero Content -->
+        <div class="absolute inset-0 flex items-center justify-center z-10">
+            <div class="container mx-auto px-4 text-center text-white">
+                <div class="bg-black/30 backdrop-blur-sm rounded-3xl p-8 md:p-12 max-w-5xl mx-auto">
+                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 font-elegant leading-tight">
+                        Your Trusted Partner for 
+                        <span class="text-gold">Umrah Journeys</span>
+                    </h1>
+                    <p class="text-lg md:text-xl lg:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed opacity-95">
+                        Experience the spiritual journey of a lifetime with our comprehensive Umrah packages, designed to make your pilgrimage seamless, comfortable, and spiritually enriching.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                        <button onclick="scrollToSection('packages')" class="btn-primary text-white px-8 py-4 rounded-full text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all">
+                            Book Your Umrah Now
+                        </button>
+                        <button onclick="scrollToSection('about')" class="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-900 transition-all">
+                            Learn More
+                        </button>
+                    </div>
+                    
+                    <!-- Trust Indicators -->
+                    <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+                            <div class="text-2xl md:text-3xl font-bold text-gold mb-1">15+</div>
+                            <p class="text-sm md:text-base opacity-90">Years Experience</p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+                            <div class="text-2xl md:text-3xl font-bold text-gold mb-1">10,000+</div>
+                            <p class="text-sm md:text-base opacity-90">Happy Pilgrims</p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+                            <div class="text-2xl md:text-3xl font-bold text-gold mb-1">24/7</div>
+                            <p class="text-sm md:text-base opacity-90">Support Available</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 font-elegant">Why Choose HR Travels</h2>
+            <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-6">
+                <div class="text-center p-6 bg-white rounded-lg shadow-md card-hover">
+                    <div class="w-16 h-16 bg-gold-light rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-semibold mb-2">Visa Assistance</h3>
+                    <p class="text-sm text-gray-600">Complete visa processing support</p>
+                </div>
+                
+                <div class="text-center p-6 bg-white rounded-lg shadow-md card-hover">
+                    <div class="w-16 h-16 bg-gold-light rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 2L3 7v11a2 2 0 002 2h10a2 2 0 002-2V7l-7-5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-semibold mb-2">Flight Ticketing</h3>
+                    <p class="text-sm text-gray-600">Best flight deals and schedules</p>
+                </div>
+                
+                <div class="text-center p-6 bg-white rounded-lg shadow-md card-hover">
+                    <div class="w-16 h-16 bg-gold-light rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M19 7l-.867 12.142A2 2 0 0116.138 21H3.862a2 2 0 01-1.995-1.858L1 7m18 0l-2-4H3L1 7m18 0v11a1 1 0 01-1 1H2a1 1 0 01-1-1V7"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-semibold mb-2">Hotel Options</h3>
+                    <p class="text-sm text-gray-600">3★/4★/5★ near Haram</p>
+                </div>
+                
+                <div class="text-center p-6 bg-white rounded-lg shadow-md card-hover">
+                    <div class="w-16 h-16 bg-gold-light rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/>
+                            <path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-semibold mb-2">Ground Transport</h3>
+                    <p class="text-sm text-gray-600">Comfortable AC vehicles</p>
+                </div>
+                
+                <div class="text-center p-6 bg-white rounded-lg shadow-md card-hover">
+                    <div class="w-16 h-16 bg-gold-light rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"/>
+                            <path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-semibold mb-2">Ziyarat Tours</h3>
+                    <p class="text-sm text-gray-600">Guided historical site visits</p>
+                </div>
+                
+                <div class="text-center p-6 bg-white rounded-lg shadow-md card-hover">
+                    <div class="w-16 h-16 bg-gold-light rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-semibold mb-2">24/7 Support</h3>
+                    <p class="text-sm text-gray-600">Phone & WhatsApp assistance</p>
+                </div>
+            </div>
+            
+            <!-- Trust Badges -->
+            <div class="mt-16 text-center">
+                <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                    <div class="p-6">
+                        <div class="text-4xl font-bold text-gold mb-2">15+</div>
+                        <p class="text-gray-600">Years of Experience</p>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-4xl font-bold text-islamic-green mb-2">Licensed</div>
+                        <p class="text-gray-600">Registered & Authorized</p>
+                    </div>
+                    <div class="p-6">
+                        <div class="text-4xl font-bold text-gold mb-2">98%</div>
+                        <p class="text-gray-600">Customer Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 islamic-pattern">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-8 font-elegant">About HR Travels</h2>
+                <p class="text-lg mb-8 text-gray-700">For over 15 years, HR Travels has been dedicated to facilitating spiritual journeys to the holy cities of Makkah and Madinah. Our mission is to provide seamless, comfortable, and spiritually enriching Umrah experiences for pilgrims from around the world.</p>
+                
+                <div class="grid md:grid-cols-3 gap-8 mt-12">
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold mb-4 text-gold">Our Mission</h3>
+                        <p class="text-gray-600">To make the sacred journey of Umrah accessible, comfortable, and spiritually fulfilling for every pilgrim.</p>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold mb-4 text-islamic-green">Our Values</h3>
+                        <p class="text-gray-600">Trust, transparency, respect, and dedication to serving the Muslim community with excellence.</p>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold mb-4 text-gold">Why Choose Us</h3>
+                        <p class="text-gray-600">Reliable service, transparent pricing, personalized guidance, and years of trusted experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Gallery Section -->
+    <section id="packages" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 font-elegant">Packages</h2>
+            
+            <!-- Photo Slideshow Container -->
+<div class="relative w-1/2 mx-auto"> <!-- 50% width -->
+    <div class="overflow-hidden rounded-2xl shadow-2xl">
+        
+        <!-- Photo Slide 1 - Kaaba Night View -->
+        <div class="flyer-slide active relative">
+            <div class="relative min-h-[500px]">
+                <img src="hrt.png" 
+                     alt="Holy Kaaba at night with pilgrims" 
+                     class="w-full h-full object-cover"
+                     onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+            </div>
+        </div>
+        
+        <!-- Photo Slide 2 - Masjid an-Nabawi -->
+        <div class="flyer-slide absolute inset-0 opacity-0">
+            <div class="relative min-h-[500px]">
+                <img src="123" 
+                     alt="Masjid an-Nabawi with Green Dome" 
+                     class="w-full h-full object-cover"
+                     onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+            </div>
+        </div>
+    </div>
+</div>
+                
+                <!-- Navigation Arrows -->
+                <button onclick="plusFlyerSlides(-1)" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-colors z-10">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                </button>
+                <button onclick="plusFlyerSlides(1)" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-colors z-10">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+                
+                <!-- Slideshow Dots -->
+                <div class="flex justify-center mt-8 space-x-3">
+                    <button onclick="currentFlyerSlide(1)" class="flyer-dot w-4 h-4 rounded-full bg-gold transition-colors active"></button>
+                    <button onclick="currentFlyerSlide(2)" class="flyer-dot w-4 h-4 rounded-full bg-gray-400 hover:bg-gold transition-colors"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 font-elegant">Our Services</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-gold-light rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"/>
+                            <path fill-rule="evenodd" d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Visa Processing</h3>
+                    <p class="text-gray-600 mb-4">Complete visa assistance with document verification, application submission, and tracking until approval.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Document verification</li>
+                        <li>• Application submission</li>
+                        <li>• Status tracking</li>
+                        <li>• Express processing available</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-gold-light rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 2L3 7v11a2 2 0 002 2h10a2 2 0 002-2V7l-7-5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Flight Ticketing</h3>
+                    <p class="text-gray-600 mb-4">Best flight deals with flexible schedules from major airlines serving Saudi Arabia.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Competitive pricing</li>
+                        <li>• Flexible dates</li>
+                        <li>• Major airlines</li>
+                        <li>• Group discounts</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-gold-light rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M19 7l-.867 12.142A2 2 0 0116.138 21H3.862a2 2 0 01-1.995-1.858L1 7m18 0l-2-4H3L1 7m18 0v11a1 1 0 01-1 1H2a1 1 0 01-1-1V7"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Hotel Booking</h3>
+                    <p class="text-gray-600 mb-4">Carefully selected hotels near Haram with various categories to suit every budget.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Near Haram locations</li>
+                        <li>• 3★, 4★, 5★ options</li>
+                        <li>• Clean & comfortable</li>
+                        <li>• Halal certified</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-gold-light rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/>
+                            <path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1V5a1 1 0 00-1-1H3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Saudi Transport</h3>
+                    <p class="text-gray-600 mb-4">Comfortable air-conditioned vehicles for all your transportation needs in Saudi Arabia.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Airport transfers</li>
+                        <li>• Hotel to Haram</li>
+                        <li>• Makkah to Madinah</li>
+                        <li>• Private & shared options</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+                    <div class="w-16 h-16 bg-gold-light rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"/>
+                            <path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Guided Ziyarat</h3>
+                    <p class="text-gray-600 mb-4">Educational tours to historical Islamic sites in Makkah and Madinah with knowledgeable guides.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Historical sites</li>
+                        <li>• Knowledgeable guides</li>
+                        <li>• Educational content</li>
+                        <li>• Group & private tours</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 font-elegant">Frequently Asked Questions</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="space-y-4">
+                    <div class="bg-white rounded-lg shadow-md">
+                        <button class="w-full text-left p-6 focus:outline-none" onclick="toggleFAQ(0)">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-semibold">What documents are required for Umrah visa?</h3>
+                                <svg class="w-5 h-5 transform transition-transform" id="faq-icon-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
+                                </svg>
+                            </div>
+                        </button>
+                        <div class="hidden px-6 pb-6" id="faq-content-0">
+                            <p class="text-gray-600">You'll need a valid passport (minimum 6 months validity), passport-sized photos, completed visa application form, proof of vaccination, and confirmed hotel booking. We assist with all documentation.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg shadow-md">
+                        <button class="w-full text-left p-6 focus:outline-none" onclick="toggleFAQ(1)">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-semibold">Do you offer payment plans?</h3>
+                                <svg class="w-5 h-5 transform transition-transform" id="faq-icon-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
+                                </svg>
+                            </div>
+                        </button>
+                        <div class="hidden px-6 pb-6" id="faq-content-1">
+                            <p class="text-gray-600">Yes, we offer flexible payment plans. You can pay in installments with a small deposit to secure your booking. Contact us to discuss payment options that suit your budget.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg shadow-md">
+                        <button class="w-full text-left p-6 focus:outline-none" onclick="toggleFAQ(2)">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-semibold">What is your cancellation and refund policy?</h3>
+                                <svg class="w-5 h-5 transform transition-transform" id="faq-icon-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
+                                </svg>
+                            </div>
+                        </button>
+                        <div class="hidden px-6 pb-6" id="faq-content-2">
+                            <p class="text-gray-600">Cancellations made 45+ days before departure: 90% refund. 30-44 days: 75% refund. 15-29 days: 50% refund. Less than 15 days: No refund. Visa rejection cases are handled separately with minimal charges.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg shadow-md">
+                        <button class="w-full text-left p-6 focus:outline-none" onclick="toggleFAQ(3)">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-semibold">When is the best time to perform Umrah?</h3>
+                                <svg class="w-5 h-5 transform transition-transform" id="faq-icon-3" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
+                                </svg>
+                            </div>
+                        </button>
+                        <div class="hidden px-6 pb-6" id="faq-content-3">
+                            <p class="text-gray-600">Umrah can be performed year-round. Ramadan is spiritually rewarding but crowded and expensive. Winter months (Nov-Feb) offer pleasant weather. Summer months are less crowded with better hotel rates.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg shadow-md">
+                        <button class="w-full text-left p-6 focus:outline-none" onclick="toggleFAQ(4)">
+                            <div class="flex justify-between items-center">
+                                <h3 class="text-lg font-semibold">Do you provide Ihram guidance?</h3>
+                                <svg class="w-5 h-5 transform transition-transform" id="faq-icon-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
+                                </svg>
+                            </div>
+                        </button>
+                        <div class="hidden px-6 pb-6" id="faq-content-4">
+                            <p class="text-gray-600">Yes, we provide comprehensive Ihram guidance including when and where to wear it, the necessary prayers, and what to avoid while in the state of Ihram. Our guides assist first-time pilgrims throughout the journey.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 font-elegant">What Our Pilgrims Say</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gold rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            AR
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Azka Rasool</h4>
+                            <p class="text-sm text-gray-600">March 2024</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4">
+                        <span class="text-gold">★★★★★</span>
+                    </div>
+                    <p class="text-gray-700">"Excellent service from start to finish. The hotel was close to Haram, transport was comfortable, and the guides were very knowledgeable. Highly recommended!"</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-islamic-green rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            ZR
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Zarvesha Rasool</h4>
+                            <p class="text-sm text-gray-600">January 2024</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4">
+                        <span class="text-gold">★★★★★</span>
+                    </div>
+                    <p class="text-gray-700">"HR Travels made my first Umrah experience unforgettable. Everything was well-organized, and the 24/7 support gave me peace of mind throughout the journey."</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-gold rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            AR
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Ayesha Rasool</h4>
+                            <p class="text-sm text-gray-600">December 2023</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4">
+                        <span class="text-gold">★★★★★</span>
+                    </div>
+                    <p class="text-gray-700">"Professional service with transparent pricing. The VIP package was worth every penny. The Ziyarat tours were educational and spiritually enriching."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 font-elegant">Contact Us</h2>
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-6">Customize Your Own Package</h3>
+                    <form class="space-y-6" onsubmit="handleContactForm(event)">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Full Name *</label>
+                            <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold" placeholder="Your full name">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                            <input type="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold" placeholder="your.email@example.com">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Phone/WhatsApp *</label>
+                            <input type="tel" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold" placeholder="+1 (555) 123-4567">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Preferred Travel Dates</label>
+                            <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold" placeholder="e.g., March 2024">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                            <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold" placeholder="Tell us about your requirements..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full btn-primary text-white py-3 rounded-lg font-semibold">
+                            Send Message
+                        </button>
+                        
+                        <div class="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                            <div class="flex items-start">
+                                <svg class="w-5 h-5 text-blue-600 mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"/>
+                                </svg>
+                                <div class="text-sm text-blue-800">
+                                    <p class="font-semibold mb-1">Notice</p>
+                                    <p>Dear Valued Pilgrants,
+We sincerely appreciate your trust in choosing us for your sacred journey. Please note that while we strive to provide the best possible arrangements, individual customization for every Umrah trip cannot always be accommodated due to varying circumstances such as airline availability, visa regulations, accommodation limitations, and operational constraints.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Contact Information -->
+                <div>
+                    <div class="bg-white p-8 rounded-xl shadow-lg mb-8">
+                        <h3 class="text-2xl font-semibold mb-6">Get in Touch</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-gold-light rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="w-6 h-6 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Phone</h4>
+                                    <p class="text-gray-600">+44 7366 698731</p>
+                                    <p class="text-sm text-gray-500">Available 24/7</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-islamic-green-light rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Email</h4>
+                                    <p class="text-gray-600">hrtravelsofficial@gmail.com</p>
+                                    <p class="text-sm text-gray-500">We reply within 24 hours</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-gold-light rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="w-6 h-6 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Office Address</h4>
+                                    <p class="text-gray-600">372 Katherine Road<br>London, England<br>E7 8NW</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- WhatsApp Button -->
+                    <div class="text-center">
+                        <a href="https://wa.me/+4407366698731" target="_blank" class="inline-flex items-center btn-secondary text-white px-8 py-4 rounded-full text-lg font-semibold">
+                            <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.106"/>
+                            </svg>
+                            WhatsApp Us Now
+                        </a>
+                    </div>
+                    
+                    <!-- Map Placeholder -->
+                    <div class="mt-8 bg-gray-200 h-64 rounded-xl flex items-center justify-center">
+                        <div class="text-center text-gray-600">
+                            <svg class="w-12 h-12 mx-auto mb-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"/>
+                            </svg>
+                            <p>Interactive Map</p>
+                            <p class="text-sm">372 Katherine Road, London</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-12 h-12">
+                            <img src="Logo.jpg" 
+                                 alt="HR Travels Logo" 
+                                 class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold font-elegant">HR Travels</h3>
+                            <p class="text-sm text-gray-400">Your Trusted Partner</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-4">Making your spiritual journey to the holy cities of Makkah and Madinah memorable and hassle-free for over 15 years.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gold transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-gold transition-colors">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-gold transition-colors">About Us</a></li>
+                        <li><a href="#packages" class="text-gray-400 hover:text-gold transition-colors">Umrah Packages</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-gold transition-colors">Services</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-gold transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-gold transition-colors">Visa Processing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-gold transition-colors">Flight Booking</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-gold transition-colors">Hotel Reservation</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-gold transition-colors">Transport</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-gold transition-colors">Ziyarat Tours</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-gold transition-colors">24/7 Support</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            </svg>
+                            <span class="text-gray-400">+1 (555) 123-4567</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                            </svg>
+                            <span class="text-gray-400">info@hrtravels.com</span>
+                        </div>
+                        <div class="flex items-start">
+                            <svg class="w-5 h-5 text-gold mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"/>
+                            </svg>
+                            <span class="text-gray-400">372 Katherine Road<br>London, England<br>E7 8NW</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 HR Travels. All rights reserved. Licensed & Registered Travel Agency.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl max-w-md w-full p-8">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-2xl font-bold" id="modalTitle">Book Package</h3>
+                <button onclick="closeBookingModal()" class="text-gray-500 hover:text-gray-700">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            
+            <form onsubmit="handleBookingForm(event)">
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Full Name *</label>
+                        <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Email *</label>
+                        <input type="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Phone *</label>
+                        <input type="tel" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Number of Travelers *</label>
+                        <select required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold">
+                            <option value="">Select number</option>
+                            <option value="1">1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5+">5+ People</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Preferred Travel Date</label>
+                        <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold" placeholder="e.g., March 2024">
+                    </div>
+                </div>
+                
+                <div class="mt-6 flex space-x-4">
+                    <button type="button" onclick="closeBookingModal()" class="flex-1 px-4 py-3 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors">
+                        Cancel
+                    </button>
+                    <button type="submit" class="flex-1 btn-primary text-white px-4 py-3 rounded-lg font-semibold">
+                        Request Quote
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Mobile menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobileMenuButton');
+            const mobileMenu = document.getElementById('mobileMenu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                // Toggle menu on button click
+                mobileMenuButton.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    mobileMenu.classList.toggle('hidden');
+                });
+                
+                // Close menu when clicking on navigation links
+                const mobileLinks = mobileMenu.querySelectorAll('a');
+                mobileLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        mobileMenu.classList.add('hidden');
+                    });
+                });
+                
+                // Close menu when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!mobileMenuButton.contains(e.target) && !mobileMenu.contains(e.target)) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                });
+            }
+        });
+
+        // Smooth scrolling
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        // FAQ toggle
+        function toggleFAQ(index) {
+            const content = document.getElementById(`faq-content-${index}`);
+            const icon = document.getElementById(`faq-icon-${index}`);
+            
+            content.classList.toggle('hidden');
+            icon.classList.toggle('rotate-180');
+        }
+
+        // Booking modal
+        function openBookingModal(packageType) {
+            document.getElementById('modalTitle').textContent = `Book ${packageType} Package`;
+            document.getElementById('bookingModal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeBookingModal() {
+            document.getElementById('bookingModal').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Form handlers
+        function handleContactForm(event) {
+            event.preventDefault();
+            alert('Thank you for your message! We will contact you within 24 hours.');
+            event.target.reset();
+        }
+
+        function handleBookingForm(event) {
+            event.preventDefault();
+            alert('Thank you for your booking request! We will send you a detailed quote within 24 hours.');
+            closeBookingModal();
+            event.target.reset();
+        }
+
+        // Close modal when clicking outside
+        document.getElementById('bookingModal').addEventListener('click', function(event) {
+            if (event.target === this) {
+                closeBookingModal();
+            }
+        });
+
+        // Hero Slideshow functionality
+        let slideIndex = 1;
+        let slideInterval;
+
+        function showSlides(n) {
+            const slides = document.querySelectorAll('.slide');
+            const dots = document.querySelectorAll('.slide-dot');
+            
+            if (n > slides.length) { slideIndex = 1; }
+            if (n < 1) { slideIndex = slides.length; }
+            
+            // Hide all slides
+            slides.forEach(slide => {
+                slide.style.opacity = '0';
+                slide.classList.remove('active');
+            });
+            
+            // Remove active class from all dots
+            dots.forEach(dot => {
+                dot.classList.remove('active', 'bg-white');
+                dot.classList.add('bg-white/50');
+            });
+            
+            // Show current slide
+            if (slides[slideIndex - 1]) {
+                slides[slideIndex - 1].style.opacity = '1';
+                slides[slideIndex - 1].classList.add('active');
+            }
+            
+            // Highlight current dot
+            if (dots[slideIndex - 1]) {
+                dots[slideIndex - 1].classList.add('active', 'bg-white');
+                dots[slideIndex - 1].classList.remove('bg-white/50');
+            }
+        }
+
+        function plusSlides(n) {
+            clearInterval(slideInterval);
+            slideIndex += n;
+            showSlides(slideIndex);
+            startSlideshow();
+        }
+
+        function currentSlide(n) {
+            clearInterval(slideInterval);
+            slideIndex = n;
+            showSlides(slideIndex);
+            startSlideshow();
+        }
+
+        function nextSlide() {
+            slideIndex++;
+            showSlides(slideIndex);
+        }
+
+        function startSlideshow() {
+            slideInterval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
+        }
+
+        // Initialize hero slideshow
+        document.addEventListener('DOMContentLoaded', function() {
+            showSlides(slideIndex);
+            startSlideshow();
+        });
+
+        // Pause slideshow on hover
+        const heroSection = document.getElementById('home');
+        if (heroSection) {
+            heroSection.addEventListener('mouseenter', () => clearInterval(slideInterval));
+            heroSection.addEventListener('mouseleave', startSlideshow);
+        }
+
+        // Flyer Slideshow functionality
+        let flyerSlideIndex = 1;
+        let flyerSlideInterval;
+
+        function showFlyerSlides(n) {
+            const flyerSlides = document.querySelectorAll('.flyer-slide');
+            const flyerDots = document.querySelectorAll('.flyer-dot');
+            
+            if (n > flyerSlides.length) { flyerSlideIndex = 1; }
+            if (n < 1) { flyerSlideIndex = flyerSlides.length; }
+            
+            // Hide all flyer slides
+            flyerSlides.forEach(slide => {
+                slide.style.opacity = '0';
+                slide.classList.remove('active');
+            });
+            
+            // Remove active class from all flyer dots
+            flyerDots.forEach(dot => {
+                dot.classList.remove('active', 'bg-gold');
+                dot.classList.add('bg-gray-400');
+            });
+            
+            // Show current flyer slide
+            if (flyerSlides[flyerSlideIndex - 1]) {
+                flyerSlides[flyerSlideIndex - 1].style.opacity = '1';
+                flyerSlides[flyerSlideIndex - 1].classList.add('active');
+            }
+            
+            // Highlight current flyer dot
+            if (flyerDots[flyerSlideIndex - 1]) {
+                flyerDots[flyerSlideIndex - 1].classList.add('active', 'bg-gold');
+                flyerDots[flyerSlideIndex - 1].classList.remove('bg-gray-400');
+            }
+        }
+
+        function plusFlyerSlides(n) {
+            clearInterval(flyerSlideInterval);
+            flyerSlideIndex += n;
+            showFlyerSlides(flyerSlideIndex);
+            startFlyerSlideshow();
+        }
+
+        function currentFlyerSlide(n) {
+            clearInterval(flyerSlideInterval);
+            flyerSlideIndex = n;
+            showFlyerSlides(flyerSlideIndex);
+            startFlyerSlideshow();
+        }
+
+        function nextFlyerSlide() {
+            flyerSlideIndex++;
+            showFlyerSlides(flyerSlideIndex);
+        }
+
+        function startFlyerSlideshow() {
+            flyerSlideInterval = setInterval(nextFlyerSlide, 30000); // Change flyer slide every 30 seconds
+        }
+
+        // Initialize flyer slideshow
+        document.addEventListener('DOMContentLoaded', function() {
+            showFlyerSlides(flyerSlideIndex);
+            startFlyerSlideshow();
+        });
+
+        // Pause flyer slideshow on hover
+        const packagesSection = document.getElementById('packages');
+        if (packagesSection) {
+            packagesSection.addEventListener('mouseenter', () => clearInterval(flyerSlideInterval));
+            packagesSection.addEventListener('mouseleave', startFlyerSlideshow);
+        }
+
+
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97225e0fe6e2815b',t:'MTc1NTY5NzkwNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
